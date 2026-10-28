@@ -1,0 +1,41 @@
+# ==============================================================================
+# STORYLINE & SCENE SPECIFICATION TEMPLATE
+# ==============================================================================
+# Fill in your presentation details below, or simply reply in chat using this
+# format. You can have as many scenes as you like.
+# ==============================================================================
+
+[PRESENTATION]
+Title: Enter your presentation or story title here
+Subtitle: Short subtitle or tagline
+
+[CHARACTERS]
+- Name: Character 1 (e.g., Sarah)
+  Role: Job Title / Persona (e.g., Lead Scientist)
+  Avatar Initials: S
+  Color: #3b82f6 (blue) or any hex color
+  Visual Description: What this character looks like for image generation (e.g., woman in 30s with glasses, lab coat)
+
+- Name: Character 2 (e.g., Marcus)
+  Role: Persona (e.g., Operations Director)
+  Avatar Initials: M
+  Color: #10b981 (green)
+  Visual Description: What this character looks like (e.g., man in 40s in casual business suit)
+
+[SCENE 1]
+Act / Chapter: Act I - The Challenge
+Title: Scene Title
+Speaker: Character 1
+Dialogue: The exact spoken line or dialogue explaining this slide to the audience.
+Image Description / Prompt: Detailed visual description of what should appear in the image (e.g., Sarah standing in front of a digital holographic screen showing falling energy efficiency metrics).
+Presenter Notes: (Optional) Any extra context or footnotes for this slide.
+
+[SCENE 2]
+Act / Chapter: Act II - The Discovery
+Title: Scene Title
+Speaker: Character 2
+Dialogue: Dialogue line for Scene 2.
+Image Description / Prompt: Visual description for Scene 2.
+Presenter Notes: (Optional) Notes for Scene 2.
+
+# [Add more scenes as needed...]

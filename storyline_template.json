@@ -1,0 +1,40 @@
+{
+  "title": "Your Presentation Title",
+  "subtitle": "Interactive Storyboard",
+  "characters": [
+    {
+      "name": "Sarah",
+      "role": "Lead Scientist",
+      "avatar": "S",
+      "color": "#3b82f6",
+      "visualDescription": "Woman in her 30s with wireframe glasses and clean laboratory attire"
+    },
+    {
+      "name": "Marcus",
+      "role": "Operations Director",
+      "avatar": "M",
+      "color": "#10b981",
+      "visualDescription": "Man in his 40s in casual navy business jacket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "act": "Act I • The Challenge",
+      "title": "Anomaly Detected",
+      "speaker": "Sarah",
+      "dialogue": "Look at these telemetry logs. Our atmospheric scrubbers are fluctuating beyond normal tolerance thresholds.",
+      "imagePrompt": "Modern high-tech research facility control room, cinematic lighting, a female scientist examining glowing holographic data charts showing declining performance, 16:9 widescreen presentation slide style",
+      "notes": "Slide 1 introduces the core operational failure to executive stakeholders."
+    },
+    {
+      "id": 2,
+      "act": "Act II • The Impact",
+      "title": "Evaluating Operational Risk",
+      "speaker": "Marcus",
+      "dialogue": "If we don't address this within 48 hours, the downstream manufacturing pipeline halts. We need an immediate action plan.",
+      "imagePrompt": "High-tech boardroom with smart glass windows, an operations director pointing to a status warning dashboard on a large wall display, dramatic corporate presentation aesthetic, 16:9 widescreen",
+      "notes": "Slide 2 highlights business urgency and risk quantification."
+    }
+  ]
+}

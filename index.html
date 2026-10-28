@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Presentation Storyboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="app-header">
+    <div class="story-brand">
+      <span class="brand-icon">🎬</span>
+      <div class="story-titles">
+        <h1 id="story-title">Presentation Title</h1>
+        <p id="story-subtitle">Interactive Storyboard</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="scene-counter-badge" id="scene-badge">Scene 1 of 5</span>
+      <button class="btn-icon" id="btn-toggle-dialogue" title="Toggle Dialogue (H)" aria-label="Toggle Dialogue">👁</button>
+      <button class="btn-icon" id="btn-jump" title="Table of Scenes (M)" aria-label="Open scenes overview">☰</button>
+      <button class="btn-icon" id="btn-fullscreen" title="Toggle Fullscreen (F)" aria-label="Toggle Fullscreen">⛶</button>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <!-- Main Presentation Stage -->
+  <main class="stage-container">
+    <!-- 1. Image Viewport (Scene illustration/slide from presentation) -->
+    <div class="scene-card">
+      <div class="scene-viewport">
+        <span class="scene-tag-overlay" id="scene-tag">Act I</span>
+        <img id="scene-image" class="scene-image" src="" alt="Scene Illustration" />
+      </div>
+    </div>
+
+    <!-- 2. Dialogue & Character Card -->
+    <section class="dialogue-card" id="dialogue-card" aria-live="polite">
+      <div class="speaker-header">
+        <div class="speaker-avatar" id="speaker-avatar">A</div>
+        <div class="speaker-meta">
+          <span class="speaker-name" id="speaker-name">Speaker Name</span>
+          <span class="speaker-role" id="speaker-role">Speaker Role</span>
+        </div>
+      </div>
+      <div class="dialogue-body" id="dialogue-text">
+        Loading story dialogue...
+      </div>
+    </section>
+
+    <!-- 3. Navigation Controls Bar -->
+    <nav class="controls-bar" aria-label="Scene navigation">
+      <div class="controls-left">
+        <button id="btn-prev" class="btn btn-secondary" aria-label="Previous scene">
+          <span>←</span> Back
+        </button>
+      </div>
+
+      <div class="keyboard-hints">
+        <span>Navigate:</span>
+        <span class="key-tag">←</span>
+        <span class="key-tag">→</span>
+        <span class="key-tag">Space</span>
+        <span class="key-tag">H (Hide)</span>
+      </div>
+
+      <div class="controls-right">
+        <button id="btn-next" class="btn btn-primary" aria-label="Next scene">
+          Next Scene <span>→</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Presenter Notes Accordion (Collapsible) -->
+    <section class="notes-toggle-section">
+      <div class="notes-header" id="notes-toggle" role="button" tabindex="0">
+        <span>📝 Presenter / Slide Notes</span>
+        <span id="notes-chevron">▼</span>
+      </div>
+      <div class="notes-content" id="notes-content"></div>
+    </section>
+  </main>
+
+  <!-- Scene Jump Modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Presentation Scenes</h3>
+        <button class="btn-icon" id="btn-close-modal" aria-label="Close modal">✕</button>
+      </div>
+      <div class="scene-grid" id="scene-grid"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/story-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
