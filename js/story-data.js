@@ -350,6 +350,96 @@ var STORY_DATA = {
       image: "images/slide_17.png"
     },
     {
+      id: 19.1,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Ms. Emmerson",
+        role: "Homewife",
+        avatar: "E",
+        color: "#c9bc002d"
+      },
+      characters: ["Ms.Emmerson, Emmy"],
+      dialogue: "",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_19.1.png"
+    },
+     {
+      id: 19.2,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Ms. Emmerson",
+        role: "Homewife",
+        avatar: "E",
+        color: "#c9bc002d"
+      },
+      characters: ["Ms.Emmerson, Emmy"],
+      dialogue: "Ah, sorry that's my other little one, give me a moment",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_17.png"
+    },
+     {
+      id: 19.3,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Jewel",
+        role: "Child",
+        avatar: "J",
+        color: "#00c91172"
+      },
+      characters: ["Ms.Emmerson, Jewel, Emmy"],
+      dialogue: "Hi, Miss!",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_19.3.png"
+    },
+    {
+      id: 19.4,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Emmy",
+        role: "Chimney Sweeper",
+        avatar: "E",
+        color: "#2563eb"
+      },
+      characters: ["Ms. Emmerson, Emmy"],
+      dialogue: "*Dear god she looks like Jay when she was little..*",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_19.3.png"
+    },
+     {
+      id: 19.5,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Jewel",
+        role: "Child",
+        avatar: "J",
+        color: "#00c91172"
+      },
+      characters: ["Ms.Emmerson, Jewel, Emmy"],
+      dialogue: "I-I wanted to say tha-",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_19.5.png"
+    },
+     {
+      id: 19.6,
+      act: "Act VI • Ms. Emmerson",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Ms. Emmerson",
+        role: "Homewife",
+        avatar: "E",
+        color: "#c9bc002d"
+      },
+      characters: ["Ms.Emmerson, Emmy"],
+      dialogue: "Hush child, go back inside and study your books so you can have a better future, don't you remember how much I told you daddy paid for them.",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_19.6.png"
+    },
+    {
       id: 20,
       act: "Act VI • Ms. Emmerson",
       title: "The Dark Truth",
@@ -360,7 +450,7 @@ var STORY_DATA = {
         color: "#2563eb"
       },
       characters: ["Ms. Emmerson, Emmy"],
-      dialogue: "Thank you for your information Ms. Emerson",
+      dialogue: "Well thank you for your information Ms. Emerson, I wish the best for your family.",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_17.png"
     },
@@ -390,7 +480,7 @@ var STORY_DATA = {
         color: "#2563eb"
       },
       characters: ["Abel, Emmy"],
-      dialogue: "Oh, Abel, how's your mom Mei Mei? After immigrating I heard she caught smallpox the moment she arrived.. I'm just glad you work at the brewery and you two can fit there.. I would offer you a place at Sophies but her dad probably wouldn't be grateful for etra mouths to feed.",
+      dialogue: "Oh, Abel, how's your mom Mei Mei? After immigrating I heard she caught smallpox the moment she arrived.. I'm just glad you work at the brewery and you two can fit there.. I would offer you a place at Sophies but her dad probably wouldn't be grateful for extra mouths to feed.",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_22.png"
     },
@@ -435,7 +525,7 @@ var STORY_DATA = {
         color: "#2563eb"
       },
       characters: ["Emmy"],
-      dialogue: "Wait Abel I-.. really wanted to talk.. never mind, I souldn't be a bother",
+      dialogue: "Wait Abel I-.. really wanted to talk.. never mind, I shouldn't be a bother",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_25.png"
     },
@@ -450,7 +540,7 @@ var STORY_DATA = {
         color: "#2563eb"
       },
       characters: ["Emmy"],
-      dialogue: "Maybe I can talk to that doctor Sophies dad always talked about.. what was his name.. Dr. Snow? Yea, I'll just run, I probably have 2 more hours before she..",
+      dialogue: "Maybe I can talk to that doctor Sophies dad always talks about, Dr. Snow. Yea, I'll just run, I probably have 2 more hours before she..",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_25.png"
     },
@@ -510,7 +600,7 @@ var STORY_DATA = {
         color: "#2563eb"
       },
       characters: ["Emmy"],
-      dialogue: "H-Hi I'm in a bit of a hurry, you've heard of cholera right? I-I-what am I talking about of course you have, do you know anything about how to not cure it but at least prolong thier life spang while they have cholera?",
+      dialogue: "H-Hi I'm in a bit of a hurry, you've heard of cholera right? I-I-what am I talking about of course you have, do you know anything about how to not cure it but at least prolong the life spang of someone who has cholera?",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_30.png"
     },
@@ -543,6 +633,21 @@ var STORY_DATA = {
       dialogue: "B-But my sister..",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_30.png"
+    },
+       {
+      id: 32.5,
+      act: "Act VIII • Dr. Snow",
+      title: "The Dark Truth",
+      speaker: {
+        name: "Information",
+        role: "Narrate",
+        avatar: "I",
+        color: "#a91de193"
+      },
+      characters: ["Emmy"],
+      dialogue: "",
+      notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
+      image: "images/slide_32.5.png"
     },
     {
       id: 33,
@@ -615,7 +720,7 @@ var STORY_DATA = {
         color: "#eb253545"
       },
       characters: ["Creator"],
-      dialogue: "Thank you for watching our short film, I hope you enjoyed. It was created to raise awareness and teach about the Cholera Epidemic, a book called the Great Trouble by Deborah Hopkinson and the Industrial Revolution. Special thanks to Zoya from Sayuri for helping create the poster and develop the story. For the finale above is a picture of if Emmy and Jay could've been happy together.",
+      dialogue: "Thank you for watching our short film, I hope you enjoyed. It was created to raise awareness and teach about the Cholera Epidemic, a book called the Great Trouble by Deborah Hopkinson and the Industrial Revolution. Special thanks to Zoya from Sayuri for helping create the poster and develop the story. For the finale above is a picture of if Emmy and Jay if they were born after Dr. Snow found the reason cholera spread.",
       notes: "The horrific realization: The water they trusted was the very source carrying the fatal disease into their home.",
       image: "images/slide_37.png"
     }
